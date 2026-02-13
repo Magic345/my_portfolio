@@ -2,10 +2,22 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+    max-width: 1110px;
+    background-color: rgb(185, 109, 109);
+    margin-right: auto;
+    margin-left: auto;
+}
+.none {
+    display: none !important;
+}
+
 header {
     display: flex;
     position: relative;
@@ -43,5 +55,7 @@ header {
     bottom: 0;
     transform: translate(-50%, 0);
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
+
+
